@@ -1,0 +1,50 @@
+body {
+   background: white;
+}
+
+.sticker {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin: 5px;
+}
+#coding{
+  font-size:40pt;
+  font-weight:bold;
+  font-family:"Courier New";
+  background:linear-gradient(blue,pink,red);
+  padding:50px 30px;
+  border-radius:20px;
+}
+#web{
+  font-size:40pt;
+  font-weight:bold;
+  font-family:"Impact";
+  text-shadow: 2px 2px grey;
+  background:radial-gradient(#00FA9A,#E0FFFF,#0000FF);
+  padding:60px 20px;
+  border-radius:20px;
+}
+#robot{
+   font-size:40pt;
+  font-weight:bold;
+  font-family:"Tahoma";
+  background:linear-gradient(#FFC0CB,#FFDEAD,#FF69B4);
+  padding:50px 30px;
+  border-radius:20px;
+}
+#firebot{
+  border: 10px dashed red;
+  outline:10px solid red;
+  outline-offset:2px;
+  background:linear-gradient(#FF7F50,#FFA07A,#FF6347);
+  position: relative;
+}
+#firetext{
+  position: absolute;
+  left:10px;
+  bottom:60px;
+  color:black;
+  font-size:20pt;
+  transform:rotate(-15deg);
+}
